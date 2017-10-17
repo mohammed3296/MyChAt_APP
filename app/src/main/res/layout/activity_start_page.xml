@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startpageactivity"
+    tools:context="com.mohammedabdullah3296.mychat.mainActivities.StartPageActivity">
+
+
+    <Button
+        android:id="@+id/already_have_acount_button"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/new_account_button"
+        android:layout_alignLeft="@+id/new_account_button"
+        android:layout_alignStart="@+id/new_account_button"
+        android:layout_marginBottom="39dp"
+        android:background="@android:color/background_light"
+        android:padding="10dp"
+        android:text="Already have an account?"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/new_account_button"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp"
+        android:background="@android:color/background_light"
+        android:padding="10dp"
+        android:text="Need New Account?"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
